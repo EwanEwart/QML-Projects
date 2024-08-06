@@ -1,5 +1,5 @@
 import QtQuick 2.5
-import QtQuick.Window 2.2
+// import QtQuick.Window 2.2
 
 Canvas {
     id: canvas
@@ -14,6 +14,7 @@ Canvas {
         id: player
         width: 10 * Screen.logicalPixelDensity
         height: 10 * Screen.logicalPixelDensity
+        y: 465
         property color lineColor: Qt.rgba(0.35, 0.65, 0.17, 0.7)
         property real lastX: x
         property real lastY: y
